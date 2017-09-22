@@ -13,7 +13,7 @@ body.landing {
 .hero-content .hero-title {
   position:absolute;
   top:40%;
-  -webkit-transform: translateY(-50%); 
+  -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -35,7 +35,7 @@ body.landing {
     text-align: center;
     padding: 2rem;
     opacity:0;
-  
+
     transform: scaleX(0.9) translateY(3rem);
     -webkit-transform: scaleX(0.9) translateY(3rem);
     -moz-transform: scaleX(0.9) translateY(3rem);
@@ -55,7 +55,3 @@ body.landing {
   color: rgb(233,50,117);
   font-size: 3.5rem;
 }
-
-
-
-
