@@ -1,5 +1,5 @@
 body.album{
-  background-image:url(../assets/images/blurred_backgrounds/blur_bg_3.jpg);
+  background-image:url(../assets/images/blurred_backgrounds/blur_background_3.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -21,7 +21,7 @@ body.album{
 }
 
 .album-view-details .album-view-title{
-  
+
   font-weight: 300;
   font-size:2rem;
 }
@@ -32,7 +32,7 @@ body.album{
 }
 
 .album-view-details .album-view-release-info{
-  
+
   font-weight: 300;
   font-size: 0.75rem;
 }
@@ -66,7 +66,7 @@ body.album{
   .album-view-details{
       text-align: center;
   }
-  
+
   .album-view-title{
     magin-top:0;
   }
@@ -75,7 +75,7 @@ body.album{
  .song-item-duration {
      width: 5%;
  }
- 
+
  .album-song-button {
      text-align: center;
      font-size: 14px;
@@ -86,13 +86,13 @@ body.album{
      width: 28px;
      height: 28px;
  }
- 
+
  .album-song-button:hover {
      cursor: pointer;
      color: white;
      background-color: rgb(210, 40, 123);
  }
- 
+
  .album-song-button span {
      line-height: 28px;
  }
@@ -112,7 +112,7 @@ body.album{
       width: 80%;
       margin:auto;
   }
-  
+
   .album-view-title{
     margin-top:0;
   }
@@ -131,9 +131,3 @@ body.album{
   border-bottom: none;
   font-weight:bold;
 }
-
-
-
-
-
-
