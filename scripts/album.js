@@ -1,7 +1,3 @@
-//Delete this after
-$("#exampleElement").click(function(){
-    $("#exampleTarget").html("Hello <b>Do Something</b>!");
-});
 
 var createSongRow = function(songNumber, songName, songLength) {
      var template =
