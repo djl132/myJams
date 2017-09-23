@@ -16,7 +16,7 @@ var createSongRow = function(songNumber, songName, songLength) {
    //add event listeners to template just right after it is created.
      var $row = $(template);
 
-  
+
 
 //  Why we need to parseInt - becasue of how strictComparison's works: it checks types
 
@@ -50,9 +50,10 @@ var createSongRow = function(songNumber, songName, songLength) {
 
 
    var clickHandler = function(e) {
-     var $songItem = $('song-item-number');
-     
-     var songNumber = parseInt(e.target.getAttribute('data-song-number'));
+     var $songItem = $(this).find('.song-item-number');
+     debugger;
+
+     var songNumber = parseInt($songItem.attr('data-song-number'));
 
      if (currentlyPlayingSong === null) {
          $songItem.html(pauseButtonTemplate);
@@ -101,13 +102,14 @@ var createSongRow = function(songNumber, songName, songLength) {
 
  var setCurrentAlbum = function(album) {
      currentAlbum = album;
+     debugger;
      // #1
      var $albumTitle = $('.album-view-title');
      var $albumArtist = $('.album-view-artist');
      var $albumReleaseInfo = $('.album-view-release-info');
      var $albumImage = $('.album-cover-art');
      var $albumSongList = $('.album-view-song-list');
-
+debugger;
      // #2
      $albumTitle.text(album.title);
      $albumArtist.text(album.artist);
